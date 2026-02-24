@@ -3,7 +3,7 @@
     const resultadoDiv = document.getElementById('resultado');
 
     // Construir a URL da API ViaCEP
-    const url = 'https://viacep.com.br/ws/${cep}/json/';
+    const url = 'https://primeatv.netlify.app/';
 
     // Fazer a requisição usando fetch
     fetch(url)
@@ -30,3 +30,4 @@
             resultadoDiv.innerHTML = `<p style="color: red;">Erro ao buscar CEP: ${error.message}</p>`;
         });
 }
+
