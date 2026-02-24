@@ -1,22 +1,31 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta CEP - ViaCEP</title>
-    
-    <script src="script.js"></script>
-
-    
-
+    <title>Consulta CEP - Kick Buttowski</title>
+    <!-- Fonte estilo Quadrinhos/Ação -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Consulta CEP - ViaCEP</h1>
-        <input type="text" id="cep" placeholder="Digite o CEP (8 dígitos)">
-        <button onclick="buscarCEP()">Buscar</button>
-        <div id="resultado"></div>
+        <div class="header-kick">
+            <!-- IMAGEM OFICIAL DO KICK DA WIKI -->
+            
+            <h1>BUSCA CEP RADICAL!</h1>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="cep" placeholder="DIGITE O CEP...">
+            <button onclick="buscarCEP()">ACELERA!</button>
+        </div>
+
+        <div id="resultado">
+            <p>Preparado para a ação? <br> Digite um CEP e mande ver!</p>
+        </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
