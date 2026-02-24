@@ -3,7 +3,7 @@
     const resultadoDiv = document.getElementById('resultado');
 
     // Construir a URL da API ViaCEP
-    const url = 'https://primeatv.netlify.app/';
+    const url = 'https://viacep.com.br/ws/${cep}/json/';
 
     // Fazer a requisição usando fetch
     fetch(url)
